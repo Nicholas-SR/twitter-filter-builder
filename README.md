@@ -1,4 +1,13 @@
-# Setup: Twitter Filter Builder
+# Twitter Filter Builder
+- A program designed to enable a more personalized Twitter experience by creating a customized
+block list of accounts based on user inputted criteria.
+- The tool uses an efficient algorithm to search a large dataset of tweets to generate a list of
+accounts that match the given parameters.
+- The list of accounts is then added to the user’s Twitter block list using the Twitter API.
+
+Note: Due to Github file size restrictions, the included dataset of tweets only contains ~2000 tweets. To search a larger dataset you will need to download it yourself here: https://archive.org/search.php?query=collection%3Atwitterstream&sort=-publicdate
+
+# Usage Guide
 1.	To run the Twitter Filter application you first need to login to a Twitter account. 
 2.	After signing into the Twitter account you can then run the TwitterBlock.java file.
 3.	The program will make you authenticate the application so that it can perform actions onto the Twitter account. It will open a page in your browser that will ask for permission to grant access to the account.
